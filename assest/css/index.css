@@ -1,0 +1,102 @@
+* {
+  font-family: "Itim", "cursive";
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  color: white;
+  position: sticky;
+}
+
+.left {
+  /* border: 1px solid red; */
+  display: inline-block;
+  left: 34px;
+  position: absolute;
+  top: 20px;
+}
+
+.mid {
+  /* border: 1px solid rgb(43, 183, 0); */
+  display: block;
+  margin: 20px auto;
+  width: 40%;
+  text-align: center;
+}
+
+.right {
+  /* border: 1px solid rgb(0, 13, 255); */
+  display: inline-block;
+  position: absolute;
+  right: 34px;
+  top: 20px;
+}
+
+.navbar {
+  display: inline-block;
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: white;
+  padding: 30px 20px;
+}
+
+.mid .navbar li .active {
+  color: red;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.navbar li a:hover {
+  color: red;
+}
+
+.btn {
+  cursor: pointer;
+  margin: 0px 9px;
+  padding: 7px 20px;
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: grey;
+  color: white;
+}
+
+.container {
+  color: rgb(255, 255, 255);
+  /* border: 2px solid white; */
+  margin: 43px 15px;
+  padding: 133px 70px;
+  left: 500px;
+  width: 33%;
+  border-radius: 25px;
+  font-size: xx-large;
+}
+
+h1{
+    color: white;
+}
+
+.container span{
+    color: red;
+}
+
+.form_title{
+    font-weight: bold;
+    font-size: x-large;
+}
